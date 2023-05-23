@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*background-image: url(l.jpg);
+	background-position: center;
+	background-size: cover;*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #ddd;
+}
+
+fieldset {
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.registroformulario {
+    width: 800px;
+    background-color: #3c050e;
+    margin: auto;
+    color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: inset 0 0 1em black;
+}
+
+
+.conteudo {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.centralizacao{
+    text-align: center;
+}
+
+form {
+    padding: 15px;
+}
+
+h3 {
+    padding: 10px 0px;
+    font-size: 16px;
+}
+
+select{
+    width: 25%;
+    border-radius: 6px;
+    padding: 5px 2px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+input[type = "text"] {
+    width: 25%;
+    line-height: 20px;
+    border-radius: 6px;
+    padding: 5px 2px;
+    text-align: center;
+}
+
+input[type = "password"]{
+    width: 25%;
+    line-height: 20px;
+    border-radius: 6px;
+    padding: 5px 2px;
+    text-align: center;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    padding-right: 70px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 6px;
+    padding: 5px 5px;
+}
+
+
+button {
+    background-color: #3c050e;
+    display: block;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #3c050e;
+    width: 100%;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
